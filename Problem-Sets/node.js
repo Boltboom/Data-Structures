@@ -18,6 +18,8 @@ class Node {
         this.next = null;
 		this.prev = null;
 		this.min = null;
+		this.left = null;
+		this.right = null;
 	}
 }
 module.exports = Node;
